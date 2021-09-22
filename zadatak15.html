@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        
+        <form align="center">
+            
+            <fieldset>Obavezni<br>
+                <table border="1" align="left" cellspacing="0">
+                    <tr> 
+                       <td>Ime:<td> <input type="text" name="Ime"><br> </td></td>
+                    </tr>
+                
+                    <tr>
+                        
+                        <td> Prezime:
+                           <td><input type="text" name="Prezime"><br></td>
+                        </td>
+                        
+                    </tr>
+                <tr>
+                    <td>
+                        <label for="gradovi">Grad:</label>
+                        <td>
+                        <input type="text" name="Grad" list="izbor" id="Grad"><br>
+                        <datalist id="izbor">
+                            <option value="Novi Pazar"></option>
+                            <option value="Sjenica"></option>
+                            <option value="Tutin"></option>
+                            <option value="Raska"></option>
+                        </datalist>
+                    </td>
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+                         <td>Pol:</td>
+                        <td>
+                            <select>
+                                <option value=" "> </option>
+                                <option value="Muskarac"> Muskarac</option>
+                                <option value="Zena">Zena</option>
+                                
+                                </select><br>
+                           
+                            </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Godina studija:<td> <input type="number" name="Godina"><br></td>
+                    </td>
+                </tr>  
+            </table>
+            </fieldset>
+
+            <fieldset>Opcioni <br>
+                <table border="1" align="left" cellspacing="0">
+                    <tr>
+
+                        <td>Interesovanje: </td>
+                        <td>
+                         <select>
+                             <option value=" "> </option>
+                             <option value="Matematika"> Matematika</option>
+                             <option value="Informatika">Informatika</option>
+                             <option selected value="Programiranje">Programiranje</option>
+                             </select><br>
+                         </td>
+                         </tr>
+                         <tr>
+                             <td>Biografija
+                                 <td><input type="text"></td>
+                             </td>
+                         </tr>
+                        </table>
+            </fieldset>
+
+            <fieldset>Logovanje <br>
+                <table border="1" align="left" cellspacing="0">
+                    <tr>
+                        <td>email: </td>
+                        <td> <input type="text" name="email"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Sifra: </td>
+                        <td> <input type="password" name="pasw"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Ponoviti sifru: </td>
+                        <td> <input type="password" name="pasw"><br></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Submit">
+        
+        </form>
+    
+   
+    </body>
+</html>
